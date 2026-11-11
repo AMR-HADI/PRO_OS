@@ -1,3 +1,4 @@
 #البدايه من هنا 
-import shell
+import shell,CPUs
 shell.shell()
+CPUs.CPUs() 
