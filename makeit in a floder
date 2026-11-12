@@ -1,0 +1,7 @@
+def create_directory(path):
+    try:
+        import os
+        os.makedirs(path, exist_ok=True)
+        print(f"[+] Successfully created directory at: {path}")
+    except Exception as e:
+        print(f"[-] Error creating directory: {e}")
